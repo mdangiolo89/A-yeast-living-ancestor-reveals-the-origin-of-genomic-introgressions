@@ -21,7 +21,7 @@ Sequence data for the strains belonging to the Alpechin, Brazilian bioethanol, M
 
 
 # Sequencing and de novo assembly of the living ancestor’s genome
-This folder contains genome assemblies of the living ancestor based on short- (Illumina) and long-read (PacBio) sequencing. A complete annotation of the Illumina-based genome assembly is also provided.
+This folder contains genome assemblies of the living ancestor based on short- (Illumina) and long-read (PacBio) sequencing.
 
 
 # Mapping LOH and introgressions’ boundaries
@@ -37,7 +37,7 @@ This folder contains a list of de novo mutations occurred during the return-to-g
 
 
 # Molecular dating of genome instability and Alpechin emergence
-The list of synonymous sites used for the estimation based on the strict molecular clock model is provided, along with the fasta sequences and consensus trees used for the estimation based on the random, local molecular clock model.
+The list of synonymous sites used for the estimation based on the strict molecular clock model is provided, along with the fasta sequences used for the estimation based on the random, local molecular clock model.
 
 
 # GO term analysis and annotation of LOH and introgressed genes
