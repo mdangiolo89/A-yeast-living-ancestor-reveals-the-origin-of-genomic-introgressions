@@ -14,3 +14,7 @@ $ git clone https://github.com/mdangiolo89/A-yeast-living-ancestor-reveals-the-o
 
 # Manuscript
 This folder contains main figures and supplementary figures, supplementary tables and source data files underlying each plot. The alignment used to build figure 1a is provided in the data folder.
+
+
+# Sequence data
+Sequence data for the strains belonging to the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades were part of another study and were previously submitted to the Sequence Read Archive (SRA) NCBI under the accession number ERP014555. The genome sequences generated in this study are available at Sequence Read Archive (SRA), NCBI under the accession codes BioProject ID PRJNA594913, Biosample ID SAMN13540515 - SAMN13540586.
