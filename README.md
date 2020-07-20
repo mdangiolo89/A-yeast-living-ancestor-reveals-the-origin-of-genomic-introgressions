@@ -29,7 +29,20 @@ The alignment used to build the phylogenetic tree in figure 1a is provided in th
 
 
 # Mapping LOH and introgressions’ boundaries
-This folder contains the reference genomes used in this study, their annotations, their subtelomeric coordinates and a list of reliable markers used to define loss-of-heterozygosity (LOH) regions in the living ancestor and introgression regions in the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades. Pan-introgression maps for all the clades are also provided.
+This folder contains the reference genomes used in this paragraph of the manuscript, their annotations, their subtelomeric coordinates and a list of reliable markers used to define loss-of-heterozygosity (LOH) regions in the living ancestor and introgression regions in the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades. Pan-introgression maps for all the clades are also provided.
 
 
 # Variant calling and SNVs analysis
+This folder contains the reference genome used in this paragraph of the manuscript, as well as a list of heterozygous de novo mutations present in the living ancestor's S. paradoxus and S. cerevisiae LOH blocks. Tables indicating the allele present at each of these sites for all the Alpechin strains and the 25 living ancestor's gametes are also provided. Additional files contain the list of alleles present in the S. paradoxus and the S. cerevisiae haplotypes of the living ancestor's genome.
+
+
+# Estimation of the living ancestor's base substitution rate and phenotypic impact
+This folder contains a list of de novo mutations occurred during the return-to-growth (RTG) and mutation accumulation lines (MAL) experiments. 
+
+
+# Molecular dating of genome instability and Alpechin emergence
+The list of synonymous sites used for the estimation based on the strict molecular clock model is provided, along with the fasta sequences and consensus trees used for the estimation based on the random, local molecular clock model.
+
+
+# GO term analysis and annotation of LOH and introgressed genes
+We provide a complete list of introgressed genes present in the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades.
