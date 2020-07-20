@@ -20,9 +20,16 @@ This folder contains main figures and supplementary figures, supplementary table
 Sequence data for the strains belonging to the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades were part of another study and were previously submitted to the Sequence Read Archive (SRA) NCBI under the accession number ERP014555. The genome sequences generated in this study are available at Sequence Read Archive (SRA), NCBI under the accession codes BioProject ID PRJNA594913, Biosample ID SAMN13540515 - SAMN13540586.
 
 
-# Genome assemblies and annotations
-This folder contains genome assemblies of the living ancestor based on short- (Illumina) and long-read (PacBio) sequencing. A complete annotation of the Illumina-based genome assembly is also provided. The alignment used to build the phylogenetic tree in figure 1a is provided in this folder.
+# Sequencing and de novo assembly of the living ancestor’s genome
+This folder contains genome assemblies of the living ancestor based on short- (Illumina) and long-read (PacBio) sequencing. A complete annotation of the Illumina-based genome assembly is also provided.
 
 
-# LOH and introgressions annotation
-This folder contains the reference genomes used in this study, their annotations, subtelomeric coordinates and a list of reliable markers used to define loss-of-heterozygosity (LOH) regions in the living ancestor and introgression regions in the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades. Pan-introgression maps and lists of introgressed genes in all the clades are also provided.
+# Phylogenetic analysis of the living ancestor’s subgenomes
+The alignment used to build the phylogenetic tree in figure 1a is provided in this folder.
+
+
+# Mapping LOH and introgressions’ boundaries
+This folder contains the reference genomes used in this study, their annotations, their subtelomeric coordinates and a list of reliable markers used to define loss-of-heterozygosity (LOH) regions in the living ancestor and introgression regions in the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades. Pan-introgression maps for all the clades are also provided.
+
+
+# Variant calling and SNVs analysis
