@@ -13,7 +13,7 @@ $ git clone https://github.com/mdangiolo89/A-yeast-living-ancestor-reveals-the-o
 
 
 # Manuscript
-This folder contains main figures and supplementary figures, supplementary tables and source data files underlying each plot. The alignment used to build figure 1a is provided in the genome assemblies and annotations folder.
+This folder contains main figures and supplementary figures, supplementary tables and source data files underlying each plot. The alignment used to build figure 1a is provided in the folder "Phylogenetic analysis of the living ancestor’s subgenomes".
 
 
 # Sequence data
