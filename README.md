@@ -13,7 +13,7 @@ $ git clone https://github.com/mdangiolo89/A-yeast-living-ancestor-reveals-the-o
 
 
 # Manuscript
-This folder contains main figures and supplementary figures, supplementary tables and source data files underlying each plot. The alignment used to build figure 1a is provided in the folder "Phylogenetic analysis of the living ancestor’s subgenomes".
+This folder contains main figures and supplementary figures, supplementary tables and source data files underlying each plot. The alignment used to build figure 1a is available upon request.
 
 
 # Sequence data
@@ -22,10 +22,6 @@ Sequence data for the strains belonging to the Alpechin, Brazilian bioethanol, M
 
 # Sequencing and de novo assembly of the living ancestor’s genome
 This folder contains genome assemblies of the living ancestor based on short- (Illumina) and long-read (PacBio) sequencing. A complete annotation of the Illumina-based genome assembly is also provided.
-
-
-# Phylogenetic analysis of the living ancestor’s subgenomes
-The alignment used to build the phylogenetic tree in figure 1a is provided in this folder.
 
 
 # Mapping LOH and introgressions’ boundaries
