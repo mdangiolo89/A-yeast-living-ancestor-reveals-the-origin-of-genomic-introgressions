@@ -22,3 +22,6 @@ Sequence data for the strains belonging to the Alpechin, Brazilian bioethanol, M
 
 # Genome assemblies and annotations
 This folder contains genome assemblies of the living ancestor based on short- (Illumina) and long-read (PacBio) sequencing. A complete annotation of the Illumina-based genome assembly is also provided. The alignment used to build the phylogenetic tree in figure 1a is provided in this folder.
+
+
+# LOH and introgressions annotation
