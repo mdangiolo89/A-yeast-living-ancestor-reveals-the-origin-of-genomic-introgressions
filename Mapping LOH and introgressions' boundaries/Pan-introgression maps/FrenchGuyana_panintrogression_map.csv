@@ -1,0 +1,117 @@
+Chromosome,Species,Start,End,Species,Start,End,Length (bp),#markers,DNA state,Position
+chrI,S. paradoxus,24120,24617,S. cerevisiae,20495,20992,497,47,Homozygous S. paradoxus,Interstitial
+chrI,S. paradoxus,163828,181618,S. cerevisiae,166209,178039,17790,447,Homozygous S. paradoxus,Interstitial
+chrI,S. paradoxus,184736,185061,S. cerevisiae,181171,181496,325,33,Homozygous S. paradoxus,Interstitial
+chrII,S. paradoxus,274316,274929,S. cerevisiae,241122,241735,613,42,Homozygous S. paradoxus,Interstitial
+chrIV,S. paradoxus,465433,465691,S. cerevisiae,465814,466072,258,20,Homozygous S. paradoxus,Interstitial
+chrIV,S. paradoxus,1221882,1222271,S. cerevisiae,1236650,1237039,389,42,Homozygous S. paradoxus,Interstitial
+chrIX,S. paradoxus,132392,132927,S. cerevisiae,124128,124661,535,41,Homozygous S. paradoxus,Interstitial
+chrIX,S. paradoxus,383385,383721,S. cerevisiae,367985,368321,336,39,Homozygous S. paradoxus,Interstitial
+chrIX,S. paradoxus,404925,405573,S. cerevisiae,387230,387878,648,44,Homozygous S. paradoxus,Interstitial
+chrV,S. paradoxus,419168,419423,S. cerevisiae,431071,431316,255,50,Homozygous S. paradoxus,Interstitial
+chrVI,S. paradoxus,218634,221233,S. cerevisiae,186600,189060,2599,55,Homozygous S. paradoxus,Interstitial
+chrVI,S. paradoxus,269726,281029,S. cerevisiae,237709,246751,11303,166,Homozygous S. paradoxus,Terminal
+chrVII,S. paradoxus,13689,25050,S. cerevisiae,12903,24218,11361,826,Homozygous S. paradoxus,Terminal
+chrVII,S. paradoxus,40657,41237,S. cerevisiae,39788,40368,580,35,Homozygous S. paradoxus,Interstitial
+chrVII,S. paradoxus,321158,323241,S. cerevisiae,329303,331408,2083,120,Homozygous S. paradoxus,Interstitial
+chrVII,S. paradoxus,926439,926942,S. cerevisiae,929897,930400,503,39,Homozygous S. paradoxus,Interstitial
+chrVII,S. paradoxus,1032704,1038074,S. cerevisiae,1036204,1041477,5370,300,Homozygous S. paradoxus,Terminal
+chrVIII,S. paradoxus,81476,82073,S. cerevisiae,82679,83276,597,49,Homozygous S. paradoxus,Interstitial
+chrX,S. paradoxus,34746,39577,S. cerevisiae,36162,41216,4831,481,Homozygous S. paradoxus,Terminal
+chrXI,S. paradoxus,342395,343450,S. cerevisiae,325930,326985,1055,20,Homozygous S. paradoxus,Interstitial
+chrXIII,S. paradoxus,28736,30081,S. cerevisiae,23559,24903,1345,55,Homozygous S. paradoxus,Interstitial
+chrXIII,S. paradoxus,905445,906284,S. cerevisiae,895365,896208,839,86,Homozygous S. paradoxus,Interstitial
+chrXIV,S. paradoxus,756605,761766,S. cerevisiae,747410,752573,5161,449,Homozygous S. paradoxus,Terminal
+chrXV,S. paradoxus,78625,82427,S. cerevisiae,76560,80342,3802,330,Homozygous S. paradoxus,Interstitial
+chrXV,S. paradoxus,374550,375036,S. cerevisiae,367094,367579,486,57,Homozygous S. paradoxus,Interstitial
+chrXV,S. paradoxus,415281,415654,S. cerevisiae,407472,407846,373,45,Homozygous S. paradoxus,Interstitial
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,73934,3918,,0
+,,,,,,,,,,0

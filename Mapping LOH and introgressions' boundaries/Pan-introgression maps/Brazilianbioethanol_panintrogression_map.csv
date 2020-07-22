@@ -1,0 +1,117 @@
+Chromosome,Species,Start,End,Species,Start,End,Length (bp),#markers,DNA state,Position
+chrI,S. paradoxus,163828,181474,S. cerevisiae,166209,177910,17646,432,Homozygous S. paradoxus,Interstitial
+chrIII,S. paradoxus,132130,159933,S. cerevisiae,106943,133178,27803,1811,Homozygous S. paradoxus,Interstitial
+chrIII,S. paradoxus,311664,311974,S. cerevisiae,282768,283075,310,44,Homozygous S. paradoxus,Interstitial
+chrIV,S. paradoxus,1468034,1475661,S. cerevisiae,1471282,1483394,7627,573,Homozygous S. paradoxus,Terminal
+chrIX,S. paradoxus,25543,25945,S. cerevisiae,17497,17899,402,41,Homozygous S. paradoxus,Interstitial
+chrIX,S. paradoxus,31274,32182,S. cerevisiae,23155,24063,908,61,Homozygous S. paradoxus,Interstitial
+chrIX,S. paradoxus,132392,132927,S. cerevisiae,124128,124661,535,41,Homozygous S. paradoxus,Interstitial
+chrV,S. paradoxus,307415,308390,S. cerevisiae,319444,320429,975,24,Homozygous S. paradoxus,Interstitial
+chrV,S. paradoxus,419168,419423,S. cerevisiae,431071,431316,255,50,Homozygous S. paradoxus,Interstitial
+chrVI,S. paradoxus,218634,221924,S. cerevisiae,186600,189751,3290,134,Homozygous S. paradoxus,Interstitial
+chrVI,S. paradoxus,266341,266665,S. cerevisiae,234321,234645,324,25,Homozygous S. paradoxus,Interstitial
+chrVI,S. paradoxus,280092,281029,S. cerevisiae,245814,246751,937,86,Homozygous S. paradoxus,Terminal
+chrVII,S. paradoxus,14012,22931,S. cerevisiae,13226,22092,8919,671,Homozygous S. paradoxus,Terminal
+chrVII,S. paradoxus,40657,41237,S. cerevisiae,39788,40368,580,35,Homozygous S. paradoxus,Interstitial
+chrVII,S. paradoxus,321158,323241,S. cerevisiae,329303,331408,2083,120,Homozygous S. paradoxus,Interstitial
+chrVII,S. paradoxus,699152,699580,S. cerevisiae,704699,705129,428,59,Homozygous S. paradoxus,Interstitial
+chrVII,S. paradoxus,926439,926942,S. cerevisiae,929897,930400,503,39,Homozygous S. paradoxus,Interstitial
+chrVIII,S. paradoxus,451389,452454,S. cerevisiae,458641,459730,1065,40,Homozygous S. paradoxus,Interstitial
+chrX,S. paradoxus,35164,39739,S. cerevisiae,36578,41380,4575,434,Homozygous S. paradoxus,Terminal
+chrX,S. paradoxus,249909,250563,S. cerevisiae,251583,252237,654,71,Homozygous S. paradoxus,Interstitial
+chrXII,S. paradoxus,281743,281965,S. cerevisiae,274472,274694,222,21,Homozygous S. paradoxus,Interstitial
+chrXIII,S. paradoxus,28736,30081,S. cerevisiae,23559,24903,1345,55,Homozygous S. paradoxus,Interstitial
+chrXIII,S. paradoxus,547573,548352,S. cerevisiae,545590,546371,779,79,Homozygous S. paradoxus,Interstitial
+chrXIV,S. paradoxus,136093,136421,S. cerevisiae,126370,126695,328,35,Homozygous S. paradoxus,Interstitial
+chrXIV,S. paradoxus,750858,751476,S. cerevisiae,741711,742329,618,75,Homozygous S. paradoxus,Terminal
+chrXV,S. paradoxus,66343,69113,S. cerevisiae,64353,67088,2770,190,Homozygous S. paradoxus,Interstitial
+chrXV,S. paradoxus,337318,337636,S. cerevisiae,328540,328864,318,47,Homozygous S. paradoxus,Interstitial
+chrXV,S. paradoxus,374550,374973,S. cerevisiae,367094,367518,423,46,Homozygous S. paradoxus,Interstitial
+chrXV,S. paradoxus,415281,415654,S. cerevisiae,407472,407846,373,45,Homozygous S. paradoxus,Interstitial
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,86995,5384,,0
+,,,,,,,,,,0
