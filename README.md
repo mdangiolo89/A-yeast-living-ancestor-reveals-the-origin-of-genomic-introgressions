@@ -25,7 +25,7 @@ This folder contains genome assemblies of the living ancestor based on short- (I
 
 
 # Mapping LOH and introgressions’ boundaries
-This folder contains the reference genomes used in this paragraph of the manuscript, their annotations, their subtelomeric coordinates and a list of reliable markers used to define loss-of-heterozygosity (LOH) regions in the living ancestor and introgression regions in the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades. Pan-introgression maps for all the clades are also provided.
+This folder contains the reference genomes used in this paragraph of the manuscript, their subtelomeric coordinates and a list of reliable markers used to define loss-of-heterozygosity (LOH) regions in the living ancestor and introgression regions in the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades. Pan-introgression maps for all the clades are also provided.
 
 
 # Variant calling and SNVs analysis
