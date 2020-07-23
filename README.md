@@ -34,11 +34,17 @@ Usage:
 Please download all the files in this folder, including the reads, the base files and the scripts, and put them all in the same local directory on your computer. Prior to start the analysis, ensure that the file "sample_infoDBV.txt" contains the prefix of the example reads (BCM_AQF) and the prefix of the reference genome on which you want to perform the mapping and variant calling (DBVPG6765 in this case). If you want to perform this analysis on other samples included in the paper, ensure to change the corresponding strings in the file "sample_infoDBV.txt".
 In addition, before starting the analysis it is necessary to decompress the file "DBVPG6765_CBS432_LOHmarkers.txt.tar.gz" and name it "DBVPG6765_CBS432_LOHmarkers.txt".
 
+To launch the analysis, type on the command line:
 
+$ sh annotateLOHintrogressions.sh
 
+Since the analysis might take long to perform, it is recommended to use the options "nohup" to ensure that the process keeps running if the connection with the server is lost, and "&" to launch the process in background.
+The pipeline will produce many intermediate files, including bam files, vcf files and coverage files. The final files have the suffix "[CH].annotation and contain coordinates of LOH (in case the living ancestor is analysed, as in this example) or introgressions (in case Alpechin strains are analysed), in bed format. The file "$sample....C.annotation" contains coordinates in which the sample presents consecutive CBS432 (S. paradoxus) markers in homozygous state. The file "$sample....H.annotation" contains coordinates in which the sample presents consecutive CBS432 (S. paradoxus) markers in heterozygous state. For a correct interpretation of the results, it is essential to consider the genomic background of your sample. In the case of the hybrid genome of the living ancestor and its derived clones, the coordinates included in the "$sample....C.annotation" file must be considered as homozygous S. paradoxus LOH, and the coordinates included in the "$sample....H.annotation" file must be considered as heterozygous regions of the genome.
+In the case of the Alpechins, the coordinates included in the "$sample....C.annotation" file must be annotated as homozygous introgressions, and the coordinates included in the "$sample....H.annotation" file must be annotated as heterozygous introgressions.
 
-Pan-introgression maps for all the clades are also provided in a separate subfolder.
+Please note that the same set of scripts has been used to annotate LOH and introgression regions in other samples included in the paper, which have a different structure in the name of their reads. For these additional samples, a modified version of the pipeline must be used and is available upon request.
 
+Pan-introgression maps for all the introgressed clades (Alpechin, Brazilian bioethanol, Mexican agave and French Guyana) are provided in a separate subfolder.
 
 
 # Variant calling and SNVs analysis
