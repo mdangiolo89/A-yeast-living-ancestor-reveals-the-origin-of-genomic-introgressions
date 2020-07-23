@@ -25,7 +25,20 @@ This folder contains genome assemblies of the living ancestor based on short- (I
 
 
 # Mapping LOH and introgressions’ boundaries
-This folder contains the reference genomes used in this paragraph of the manuscript, their subtelomeric coordinates and a list of reliable markers used to define loss-of-heterozygosity (LOH) regions in the living ancestor and introgression regions in the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades. Pan-introgression maps for all the clades are also provided.
+This dataset comprises the reference genomes used in this paragraph of the manuscript, their subtelomeric coordinates and a list of reliable markers used to define loss-of-heterozygosity (LOH) regions in the living ancestor and introgression regions in the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades.
+Files and scripts needed to reproduce the analyses performed in the paper are contained in the subfolders "Base files" and "Source code", respectively.
+A set of Illumina reads to reproduce the analyses performed in the paper is provided in the subfolder "Example". 
+
+Usage:
+
+Please download all the files in this folder, including the reads, the base files and the scripts, and put them all in the same local directory on your computer. Prior to start the analysis, ensure that the file "sample_infoDBV.txt" contains the prefix of the example reads (BCM_AQF) and the prefix of the reference genome on which you want to perform the mapping and variant calling (DBVPG6765 in this case). If you want to perform this analysis on other samples included in the paper, ensure to change the corresponding strings in the file "sample_infoDBV.txt".
+In addition, before starting the analysis it is necessary to decompress the file "DBVPG6765_CBS432_LOHmarkers.txt.tar.gz" and name it "DBVPG6765_CBS432_LOHmarkers.txt".
+
+
+
+
+Pan-introgression maps for all the clades are also provided in a separate subfolder.
+
 
 
 # Variant calling and SNVs analysis
