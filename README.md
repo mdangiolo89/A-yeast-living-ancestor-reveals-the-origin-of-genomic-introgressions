@@ -46,6 +46,7 @@ In addition, before starting the analysis it is necessary to decompress the file
 To launch the analysis, type on the command line:
 
 $ sh annotateSparLOHintrogressions.sh
+
 $ sh annotateScerLOHintrogressions.sh
 
 Since the analysis might take long to perform, it is recommended to use the options "nohup" to ensure that the process keeps running if the connection with the server is lost, and "&" to launch the process in background.
