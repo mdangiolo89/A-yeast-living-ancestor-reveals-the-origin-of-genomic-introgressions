@@ -12,6 +12,9 @@ To clone this repository, run the following command in a local directory:
 $ git clone https://github.com/mdangiolo89/A-yeast-living-ancestor-reveals-the-origin-of-genomic-introgressions.git
 
 
+Note that to run the scripts contained in this repository, you must have installed the following softwares: bwa (http://bio-bwa.sourceforge.net/bwa.shtml), samtools (http://www.htslib.org/doc/samtools.html), picardtools (https://broadinstitute.github.io/picard/), perl (https://www.perl.org/), freebayes (https://github.com/ekg/freebayes), vcflib (https://github.com/vcflib/vcflib), vt (https://github.com/atks/vt), vcftools (http://vcftools.sourceforge.net/). 
+
+
 # Manuscript
 This folder contains main figures and supplementary figures, supplementary tables and source data files underlying each plot. The alignment used to build figure 1a is available upon request.
 
@@ -83,4 +86,4 @@ We provide a complete list of introgressed genes present in the Alpechin, Brazil
 
 
 
-To report bugs or ask additional material related to this publication, send a request to melania.dangiolo@unice.fr
+Please report any issues or questions to melania.dangiolo@unice.fr
