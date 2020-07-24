@@ -9,7 +9,9 @@ Melania D’Angiolo, Matteo De Chiara, Jia-Xing Yue, Agurtzane Irizar, Simon Ste
 
 To clone this repository, run the following command in a local directory:
 
+```
 $ git clone https://github.com/mdangiolo89/A-yeast-living-ancestor-reveals-the-origin-of-genomic-introgressions.git
+```
 
 
 Note that to run the scripts contained in this repository, you must have installed the following softwares: bwa (http://bio-bwa.sourceforge.net/bwa.shtml), samtools (http://www.htslib.org/doc/samtools.html), picardtools (https://broadinstitute.github.io/picard/), perl (https://www.perl.org/), freebayes (https://github.com/ekg/freebayes), vcflib (https://github.com/vcflib/vcflib), vt (https://github.com/atks/vt), vcftools (http://vcftools.sourceforge.net/). 
@@ -44,9 +46,11 @@ In addition, before starting the analysis it is necessary to decompress the file
 
 To launch the analysis, type on the command line:
 
+```
 $ sh annotateSparLOHintrogressions.sh
 
 $ sh annotateScerLOHintrogressions.sh
+```
 
 Since the analysis might take long to perform, it is recommended to use the options "nohup" to ensure that the process keeps running if the connection with the server is lost, and "&" to launch the process in background.
 The pipelines will produce many intermediate files, including bam files, vcf files and coverage files. The final files have the suffix "[CDH].annotation and contain coordinates of homozygous DBVPG6765 (D.annotation) or CBS432 (C.annotation) regions or heterozygous regions (H.annotation), in bed format. For a correct interpretation of the results, it is essential to consider the genomic background of your sample. In the case of the hybrid genome of the living ancestor and its derived clones, the coordinates included in the "$sample....C.annotation" file must be considered as homozygous CBS432 (*S. paradoxus*) LOH, the coordinates included in the "$sample....D.annotation" file must be considered as homozygous DBVPG6765 (*S. cerevisiae*) LOH and the coordinates included in the "$sample....H.annotation" file must be considered as heterozygous regions of the genome.
@@ -68,7 +72,9 @@ Download the files in the "Base files" and "Source code" folder and put them in 
 
 To launch the analysis, type on the command line:
 
+```
 $ sh annotatevariants.sh
+```
 
 Since the analysis might take long to perform, it is recommended to use the options "nohup" to ensure that the process keeps running if the connection with the server is lost, and "&" to launch the process in background.
 The pipeline will produce many intermediate files, including bam files, vcf files and coverage files. The final output files have the suffix ".variants" and contain the list of alleles present in the sample for a list of sites containing *de novo* mutations in the living ancestor's *S. paradoxus* (spar.genotype.variants) or *S. cerevisiae* (scer.genotype.variants) LOH regions. The files contain the chromosome, position and allele in a tab-separated format. When "REF" is present in the allele field the sample contains the same allele present in the reference genome at that site. When [ATCG] is present in the allele field the sample contains a *de novo* allele not present in the reference genome at that site, but present in the living ancestor's genome. When NA is present in the allele field the sample does not present an introgression in that region and therefore that site is not consider for further analyses. Notice that in this example we are analysing the living ancestor's genome, which contains *S. paradoxus* and *S. cerevisiae* LOH in all the sites considered. Therefore no NAs should be present in the output files.
