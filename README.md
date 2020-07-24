@@ -40,7 +40,7 @@ To reproduce the analyses performed in the paper, download the reads for the sam
 
 Usage:
 
-Download the files in the "Base files" and "Source code" folder and put them in the same local directory on your computer, together with the example reads downloaded from the SRA, NCBI archive. Prior to start the analysis, ensure that the files "sample_infoDBV.txt" and "sample_infoCBS.txt" contain the prefix of the example reads (BCM_AQF) and the prefix of the reference genome on which you want to perform the mapping and variant calling (DBVPG6765 for "sample_infoDBV.txt" and CBS432 for "sample_infoCBS.txt"). If you want to perform this analysis on other samples included in the paper, ensure to change the corresponding strings in the file "sample_infoDBV.txt" and "sample_infoCBS.txt".
+Download the files in the "Base files" and "Source code" folder and put them in the same local directory on your computer, together with the example reads downloaded from the SRA, NCBI archive. Prior to start the analysis, ensure that the files "sample_infoDBV.txt" and "sample_infoCBS.txt" contain the prefix of the example reads (BCM_AQF) and the prefix of the reference genome on which you want to perform the mapping and variant calling (DBVPG6765 for "sample_infoDBV.txt" and CBS432 for "sample_infoCBS.txt"). If you want to perform this analysis on other samples included in the paper, ensure to change the corresponding strings in the files "sample_infoDBV.txt" and "sample_infoCBS.txt".
 In addition, before starting the analysis it is necessary to decompress the file "DBVPG6765_CBS432_LOHmarkers.txt.tar.gz" and name it "DBVPG6765_CBS432_LOHmarkers.txt".
 
 To launch the analysis, type on the command line:
