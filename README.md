@@ -33,7 +33,7 @@ This folder contains genome assemblies of the living ancestor based on short- (I
 ## Mapping LOH and introgressions’ boundaries
 This folder contains all files and scripts needed to reproduce the analyses performed in the corresponding paragraph of the paper, as well as final pan-introgression maps and LOH tables resulting from this analysis.
 
-Files and scripts needed to reproduce the analyses are contained in the subfolders "Base files" and "Source code", respectively. "Base files" contains the reference genomes used in this paragraph of the manuscript, their subtelomeric coordinates and a list of reliable markers used to define loss-of-heterozygosity (LOH) regions in the living ancestor and introgression regions in the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades.
+Files and scripts needed to reproduce the analyses are contained in the subfolders [Base files] () and "Source code", respectively. "Base files" contains the reference genomes used in this paragraph of the manuscript, their subtelomeric coordinates and a list of reliable markers used to define loss-of-heterozygosity (LOH) regions in the living ancestor and introgression regions in the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades.
 
 To reproduce the analyses performed in the paper, download the reads for the sample SAMN13540515 from the SRA, NCBI archive. These reads correspond to the living ancestor.
 
@@ -49,8 +49,8 @@ $ sh annotateSparLOHintrogressions.sh
 $ sh annotateScerLOHintrogressions.sh
 
 Since the analysis might take long to perform, it is recommended to use the options "nohup" to ensure that the process keeps running if the connection with the server is lost, and "&" to launch the process in background.
-The pipelines will produce many intermediate files, including bam files, vcf files and coverage files. The final files have the suffix "[CDH].annotation and contain coordinates of homozygous S. cerevisiae (D.annotation) or S. paradoxus (C.annotation) regions or heterozygous regions (H.annotation), in bed format. For a correct interpretation of the results, it is essential to consider the genomic background of your sample. In the case of the hybrid genome of the living ancestor and its derived clones, the coordinates included in the "$sample....C.annotation" file must be considered as homozygous S. paradoxus LOH, the coordinates included in the "$sample....D.annotation" file must be considered as homozygous S. cerevisiae LOH and the coordinates included in the "$sample....H.annotation" file must be considered as heterozygous regions of the genome.
-In the case of the Alpechins, the coordinates included in the "$sample....C.annotation" file must be annotated as homozygous introgressions, and the coordinates included in the "$sample....H.annotation" file must be annotated as heterozygous introgressions.
+The pipelines will produce many intermediate files, including bam files, vcf files and coverage files. The final files have the suffix "[CDH].annotation and contain coordinates of homozygous DBVPG6765 (D.annotation) or CBS432 (C.annotation) regions or heterozygous regions (H.annotation), in bed format. For a correct interpretation of the results, it is essential to consider the genomic background of your sample. In the case of the hybrid genome of the living ancestor and its derived clones, the coordinates included in the "$sample....C.annotation" file must be considered as homozygous CBS432 (*S. paradoxus*) LOH, the coordinates included in the "$sample....D.annotation" file must be considered as homozygous DBVPG6765 (*S. cerevisiae*) LOH and the coordinates included in the "$sample....H.annotation" file must be considered as heterozygous regions of the genome.
+In the case of the Alpechins, the coordinates included in the "$sample....C.annotation" file must be annotated as homozygous CBS432 (*S. paradoxus*) introgressions, and the coordinates included in the "$sample....H.annotation" file must be annotated as heterozygous CBS432 (*S. paradoxus*) introgressions.
 
 Note that the same set of scripts has been used to annotate LOH and introgression regions in other samples included in the paper, which have a different structure in the name of their reads. For these additional samples, a modified version of the pipeline must be used and is available upon request.
 
@@ -58,9 +58,9 @@ Pan-introgression maps for all the introgressed clades (Alpechin, Brazilian bioe
 
 
 ## Variant calling and SNVs analysis
-This folder contains all files and scripts needed to reproduce the analyses performed in the corresponding paragraph of the paper, as well as final tables resulting from this analysis, indicating the alleles present at each de novo mutation site for all the Alpechin strains and the 25 living ancestor's gametes.
+This folder contains all files and scripts needed to reproduce the analyses performed in the corresponding paragraph of the paper, as well as final tables resulting from this analysis, indicating the alleles present at each *de novo* mutation site for all the Alpechin strains and the 25 living ancestor's gametes.
 
-Files and scripts needed to reproduce the analyses are contained in the subfolders "Base files" and "Source code", respectively. "Base files" contains the reference genome used in this paragraph of the manuscript (a concatenation of the reference genomes DBVPG6765 and CBS432), as well as a list of heterozygous de novo mutations present in the living ancestor's S. paradoxus and S. cerevisiae LOH blocks.
+Files and scripts needed to reproduce the analyses are contained in the subfolders "Base files" and "Source code", respectively. "Base files" contains the reference genome used in this paragraph of the manuscript (a concatenation of the reference genomes DBVPG6765 and CBS432), as well as a list of heterozygous *de novo* mutations present in the living ancestor's *S. paradoxus* and *S. cerevisiae* LOH blocks.
 To reproduce the analyses performed in the paper, download the reads associated to the sample SAMN13540515 from the SRA, NCBI archive. These reads correspond to the living ancestor.
 
 ### Usage
@@ -71,11 +71,11 @@ To launch the analysis, type on the command line:
 $ sh annotatevariants.sh
 
 Since the analysis might take long to perform, it is recommended to use the options "nohup" to ensure that the process keeps running if the connection with the server is lost, and "&" to launch the process in background.
-The pipeline will produce many intermediate files, including bam files, vcf files and coverage files. The final output files have the suffix ".variants" and contain the list of alleles present in the sample for a list of sites containing de novo mutations in the living ancestor's S. paradoxus (spar.genotype.variants) or S. cerevisiae (scer.genotype.variants) LOH regions. The files contain the chromosome, position and allele in a tab-separated format. When "REF" is present in the allele field the sample contains the same allele present in the reference genome at that site. When [ATCG] is present in the allele field the sample contains a de novo allele not present in the reference genome at that site, but present in the living ancestor's genome. When NA is present in the allele field the sample does not present an introgression in that region and therefore that site is not consider for further analyses. Notice that in this example we are analysing the living ancestor's genome, which contains S. paradoxus LOH in all the sites considered. Therefore no NAs should be present in the output files.
+The pipeline will produce many intermediate files, including bam files, vcf files and coverage files. The final output files have the suffix ".variants" and contain the list of alleles present in the sample for a list of sites containing *de novo* mutations in the living ancestor's *S. paradoxus* (spar.genotype.variants) or *S. cerevisiae* (scer.genotype.variants) LOH regions. The files contain the chromosome, position and allele in a tab-separated format. When "REF" is present in the allele field the sample contains the same allele present in the reference genome at that site. When [ATCG] is present in the allele field the sample contains a *de novo* allele not present in the reference genome at that site, but present in the living ancestor's genome. When NA is present in the allele field the sample does not present an introgression in that region and therefore that site is not consider for further analyses. Notice that in this example we are analysing the living ancestor's genome, which contains *S. paradoxus* and *S. cerevisiae* LOH in all the sites considered. Therefore no NAs should be present in the output files.
 
 
 ## Estimation of the living ancestor's base substitution rate and phenotypic impact
-This folder contains a list of de novo mutations occurred during the return-to-growth (RTG) and mutation accumulation lines (MAL) experiments. 
+This folder contains vcf files with *de novo* mutations occurred during the return-to-growth (RTG) and mutation accumulation lines (MAL) experiments. 
 
 
 ## Molecular dating of genome instability and Alpechin emergence
