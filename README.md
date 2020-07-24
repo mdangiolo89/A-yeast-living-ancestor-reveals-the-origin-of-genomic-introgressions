@@ -18,19 +18,19 @@ Note that to run the scripts contained in this repository, you must have install
 Please report any issues or questions to melania.dangiolo@unice.fr
 
 
-# Manuscript
+## Manuscript
 This folder contains main figures and supplementary figures, supplementary tables and source data files underlying each plot. The alignment used to build figure 1a is available upon request.
 
 
-# Sequence data
+## Sequence data
 Sequence data for the strains belonging to the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades were part of another study and were previously submitted to the Sequence Read Archive (SRA) NCBI under the accession number ERP014555. The genome sequences generated in this study are available at Sequence Read Archive (SRA), NCBI under the accession codes BioProject ID PRJNA594913, Biosample ID SAMN13540515 - SAMN13540586.
 
 
-# Sequencing and de novo assembly of the living ancestor’s genome
+## Sequencing and de novo assembly of the living ancestor’s genome
 This folder contains genome assemblies of the living ancestor based on short- (Illumina) and long-read (PacBio) sequencing.
 
 
-# Mapping LOH and introgressions’ boundaries
+## Mapping LOH and introgressions’ boundaries
 This folder contains all files and scripts needed to reproduce the analyses performed in the corresponding paragraph of the paper, as well as final pan-introgression maps and LOH tables resulting from this analysis.
 
 Files and scripts needed to reproduce the analyses are contained in the subfolders "Base files" and "Source code", respectively. "Base files" contains the reference genomes used in this paragraph of the manuscript, their subtelomeric coordinates and a list of reliable markers used to define loss-of-heterozygosity (LOH) regions in the living ancestor and introgression regions in the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades.
@@ -58,7 +58,7 @@ Note that the same set of scripts has been used to annotate LOH and introgressio
 Pan-introgression maps for all the introgressed clades (Alpechin, Brazilian bioethanol, Mexican agave and French Guyana) and LOH maps of the living ancestor are provided in separate subfolders.
 
 
-# Variant calling and SNVs analysis
+## Variant calling and SNVs analysis
 This folder contains all files and scripts needed to reproduce the analyses performed in the corresponding paragraph of the paper, as well as final tables resulting from this analysis, indicating the alleles present at each de novo mutation site for all the Alpechin strains and the 25 living ancestor's gametes.
 
 Files and scripts needed to reproduce the analyses are contained in the subfolders "Base files" and "Source code", respectively. "Base files" contains the reference genome used in this paragraph of the manuscript (a concatenation of the reference genomes DBVPG6765 and CBS432), as well as a list of heterozygous de novo mutations present in the living ancestor's S. paradoxus and S. cerevisiae LOH blocks.
@@ -76,13 +76,13 @@ Since the analysis might take long to perform, it is recommended to use the opti
 The pipeline will produce many intermediate files, including bam files, vcf files and coverage files. The final output files have the suffix ".variants" and contain the list of alleles present in the sample for a list of sites containing de novo mutations in the living ancestor's S. paradoxus (spar.genotype.variants) or S. cerevisiae (scer.genotype.variants) LOH regions. The files contain the chromosome, position and allele in a tab-separated format. When "REF" is present in the allele field the sample contains the same allele present in the reference genome at that site. When [ATCG] is present in the allele field the sample contains a de novo allele not present in the reference genome at that site, but present in the living ancestor's genome. When NA is present in the allele field the sample does not present an introgression in that region and therefore that site is not consider for further analyses. Notice that in this example we are analysing the living ancestor's genome, which contains S. paradoxus LOH in all the sites considered. Therefore no NAs should be present in the output files.
 
 
-# Estimation of the living ancestor's base substitution rate and phenotypic impact
+## Estimation of the living ancestor's base substitution rate and phenotypic impact
 This folder contains a list of de novo mutations occurred during the return-to-growth (RTG) and mutation accumulation lines (MAL) experiments. 
 
 
-# Molecular dating of genome instability and Alpechin emergence
+## Molecular dating of genome instability and Alpechin emergence
 The list of synonymous sites used for the estimation based on the strict molecular clock model is provided, along with the fasta sequences used for the estimation based on the random, local molecular clock model.
 
 
-# GO term analysis and annotation of LOH and introgressed genes
+## GO term analysis and annotation of LOH and introgressed genes
 We provide a complete list of introgressed genes present in the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades.
