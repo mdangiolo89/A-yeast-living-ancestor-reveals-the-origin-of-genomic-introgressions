@@ -79,3 +79,8 @@ The list of synonymous sites used for the estimation based on the strict molecul
 
 # GO term analysis and annotation of LOH and introgressed genes
 We provide a complete list of introgressed genes present in the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades.
+
+
+
+
+To report bugs or ask additional material related to this publication, send a request to melania.dangiolo@unice.fr
