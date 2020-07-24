@@ -48,20 +48,21 @@ Pan-introgression maps for all the introgressed clades (Alpechin, Brazilian bioe
 
 
 # Variant calling and SNVs analysis
-This folder contains the reference genome used in this paragraph of the manuscript, as well as a list of heterozygous de novo mutations present in the living ancestor's S. paradoxus and S. cerevisiae LOH blocks. Tables indicating the allele present at each of these sites for all the Alpechin strains and the 25 living ancestor's gametes are also provided.
-Files and scripts needed to reproduce the analyses performed in the paper are contained in the subfolders "Base files" and "Source code", respectively.
-To reproduce the analyses performed in the paper, please download the reads for the sample "CGE" from the SRA, NCBI archive.
+This folder contains all files and scripts needed to reproduce the analyses performed in the corresponding paragraph of the paper, as well as final tables resulting from this analysis, indicating the alleles present at each de novo mutation site for all the Alpechin strains and the 25 living ancestor's gametes.
+
+Files and scripts needed to reproduce the analyses are contained in the subfolders "Base files" and "Source code", respectively. "Base files" contains the reference genome used in this paragraph of the manuscript (a concatenation of the reference genomes DBVPG6765 and CBS432), as well as a list of heterozygous de novo mutations present in the living ancestor's S. paradoxus and S. cerevisiae LOH blocks.
+To reproduce the analyses performed in the paper, download the reads associated to the sample SAMN13540515 from the SRA, NCBI archive. These reads correspond to the living ancestor.
 
 Usage:
 
-Download all the files in this folder including the base files and the scripts, and put them all in the same local directory on your computer, together with the example reads downloaded from SRA. Prior to start the analysis, ensure that the file "sample_infoDBVCBS.txt" contains the prefix of the example reads (BCM_CGE) and the prefix of the reference genome on which you want to perform the mapping and variant calling (DBVCBS in this case). If you want to perform this analysis on other samples included in the paper, ensure to change the corresponding strings in the file "sample_infoDBV.txt".
+Download all the files in the "Base files" and "Source code" folder and put them in the same local directory on your computer, together with the example reads downloaded from the SRA, NCBI archive. Prior to start the analysis, ensure that the file "sample_infoDBVCBS.txt" contains the prefix of the example reads (BCM_AQF) and the prefix of the reference genome on which you want to perform the mapping and variant calling (DBVCBS in this case). If you want to perform this analysis on other samples included in the paper, ensure to change the corresponding strings in the file "sample_infoDBVCBS.txt".
 
 To launch the analysis, type on the command line:
 
 $ sh annotatevariants.sh
 
 Since the analysis might take long to perform, it is recommended to use the options "nohup" to ensure that the process keeps running if the connection with the server is lost, and "&" to launch the process in background.
-The pipeline will produce many intermediate files, including bam files, vcf files and coverage files. The final files have the suffix ".variants" and contain the list of alleles present in the sample for a list of sites containing de novo mutations in the living ancestor's S. paradoxus or S. cerevisiae LOH regions. The files contain the chromosome, position and allele in a tab-separated format. When "REF" is present in the allele field the sample contains the same allele present in the reference genome at that site. When [ATCG] is present in the allele field the sample contains a de novo allele not present in the reference genome at that site, but present in the living ancestor's genome. 
+The pipeline will produce many intermediate files, including bam files, vcf files and coverage files. The final output files have the suffix ".variants" and contain the list of alleles present in the sample for a list of sites containing de novo mutations in the living ancestor's S. paradoxus (spar.genotype.variants) or S. cerevisiae (scer.genotype.variants) LOH regions. The files contain the chromosome, position and allele in a tab-separated format. When "REF" is present in the allele field the sample contains the same allele present in the reference genome at that site. When [ATCG] is present in the allele field the sample contains a de novo allele not present in the reference genome at that site, but present in the living ancestor's genome. When NA is present in the allele field the sample does not present an introgression in that region and therefore that site is not consider for further analyses. Notice that in this example we are analysing the living ancestor's genome, which contains S. paradoxus LOH in all the sites considered. Therefore no NAs should be present in the output files.
 
 
 # Estimation of the living ancestor's base substitution rate and phenotypic impact
