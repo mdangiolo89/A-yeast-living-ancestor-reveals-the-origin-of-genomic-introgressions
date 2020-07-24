@@ -15,6 +15,9 @@ $ git clone https://github.com/mdangiolo89/A-yeast-living-ancestor-reveals-the-o
 Note that to run the scripts contained in this repository, you must have installed the following softwares: bwa (http://bio-bwa.sourceforge.net/bwa.shtml), samtools (http://www.htslib.org/doc/samtools.html), picardtools (https://broadinstitute.github.io/picard/), perl (https://www.perl.org/), freebayes (https://github.com/ekg/freebayes), vcflib (https://github.com/vcflib/vcflib), vt (https://github.com/atks/vt), vcftools (http://vcftools.sourceforge.net/). 
 
 
+Please report any issues or questions to melania.dangiolo@unice.fr
+
+
 # Manuscript
 This folder contains main figures and supplementary figures, supplementary tables and source data files underlying each plot. The alignment used to build figure 1a is available upon request.
 
@@ -82,8 +85,3 @@ The list of synonymous sites used for the estimation based on the strict molecul
 
 # GO term analysis and annotation of LOH and introgressed genes
 We provide a complete list of introgressed genes present in the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades.
-
-
-
-
-Please report any issues or questions to melania.dangiolo@unice.fr
