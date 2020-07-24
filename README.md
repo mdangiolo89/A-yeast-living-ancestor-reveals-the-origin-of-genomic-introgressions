@@ -55,7 +55,7 @@ In the case of the Alpechins, the coordinates included in the "$sample....C.anno
 
 Note that the same set of scripts has been used to annotate LOH and introgression regions in other samples included in the paper, which have a different structure in the name of their reads. For these additional samples, a modified version of the pipeline must be used and is available upon request.
 
-Pan-introgression maps for all the introgressed clades (Alpechin, Brazilian bioethanol, Mexican agave and French Guyana) are provided in a separate subfolder.
+Pan-introgression maps for all the introgressed clades (Alpechin, Brazilian bioethanol, Mexican agave and French Guyana) and LOH maps of the living ancestor are provided in separate subfolders.
 
 
 # Variant calling and SNVs analysis
