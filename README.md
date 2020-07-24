@@ -38,8 +38,7 @@ Files and scripts needed to reproduce the analyses are contained in the subfolde
 To reproduce the analyses performed in the paper, download the reads for the sample SAMN13540515 from the SRA, NCBI archive. These reads correspond to the living ancestor.
 
 
-### Usage:
-
+### Usage
 Download the files in the "Base files" and "Source code" folder and put them in the same local directory on your computer, together with the example reads downloaded from the SRA, NCBI archive. Prior to start the analysis, ensure that the files "sample_infoDBV.txt" and "sample_infoCBS.txt" contain the prefix of the example reads (BCM_AQF) and the prefix of the reference genome on which you want to perform the mapping and variant calling (DBVPG6765 for "sample_infoDBV.txt" and CBS432 for "sample_infoCBS.txt"). If you want to perform this analysis on other samples included in the paper, ensure to change the corresponding strings in the files "sample_infoDBV.txt" and "sample_infoCBS.txt".
 In addition, before starting the analysis it is necessary to decompress the file "DBVPG6765_CBS432_LOHmarkers.txt.tar.gz" and name it "DBVPG6765_CBS432_LOHmarkers.txt".
 
@@ -64,8 +63,7 @@ This folder contains all files and scripts needed to reproduce the analyses perf
 Files and scripts needed to reproduce the analyses are contained in the subfolders "Base files" and "Source code", respectively. "Base files" contains the reference genome used in this paragraph of the manuscript (a concatenation of the reference genomes DBVPG6765 and CBS432), as well as a list of heterozygous de novo mutations present in the living ancestor's S. paradoxus and S. cerevisiae LOH blocks.
 To reproduce the analyses performed in the paper, download the reads associated to the sample SAMN13540515 from the SRA, NCBI archive. These reads correspond to the living ancestor.
 
-### Usage:
-
+### Usage
 Download the files in the "Base files" and "Source code" folder and put them in the same local directory on your computer, together with the example reads downloaded from the SRA, NCBI archive. Prior to start the analysis, ensure that the file "sample_infoDBVCBS.txt" contains the prefix of the example reads (BCM_AQF) and the prefix of the reference genome on which you want to perform the mapping and variant calling (DBVCBS in this case). If you want to perform this analysis on other samples included in the paper, ensure to change the corresponding strings in the file "sample_infoDBVCBS.txt".
 
 To launch the analysis, type on the command line:
