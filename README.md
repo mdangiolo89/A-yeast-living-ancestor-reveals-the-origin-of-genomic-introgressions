@@ -29,7 +29,7 @@ Sequence data for the strains belonging to the Alpechin, Brazilian bioethanol, M
 
 
 ## Sequencing and de novo assembly of the living ancestor’s genome
-This folder contains genome assemblies of the living ancestor based on short- (Illumina) and long-read (PacBio) sequencing.
+This folder contains genome assemblies of the living ancestor based on long-read (PacBio) sequencing.
 
 
 ## Mapping LOH and introgressions’ boundaries
