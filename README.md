@@ -20,10 +20,6 @@ Note that to run the scripts contained in this repository, you must have install
 Please report any issues or questions to melania.dangiolo(at)unice.fr
 
 
-## Manuscript
-This folder contains main figures and supplementary figures, supplementary tables and source data files underlying each plot. The alignment used to build figure 1a is available upon request.
-
-
 ## Sequence data
 Sequence data for the strains belonging to the Alpechin, Brazilian bioethanol, Mexican agave and French Guyana clades were part of another study (https://doi.org/10.1038/s41586-018-0030-5) and were previously submitted to the Sequence Read Archive (SRA) NCBI under the accession number ERP014555. The genome sequences generated in this study are available at Sequence Read Archive (SRA), NCBI under the accession codes BioProject ID PRJNA594913, Biosample ID SAMN13540515 - SAMN13540586.
 
