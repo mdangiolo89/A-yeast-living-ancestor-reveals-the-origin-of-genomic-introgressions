@@ -1,4 +1,4 @@
-# A-yeast-living-ancestor-reveals-the-origin-of-genomic-introgressions
+# A yeast living ancestor reveals the origin of genomic introgressions
 
 This repository contains supporting material for the manuscript:
 
