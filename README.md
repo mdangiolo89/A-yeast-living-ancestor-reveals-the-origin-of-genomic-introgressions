@@ -17,7 +17,7 @@ $ git clone https://github.com/mdangiolo89/A-yeast-living-ancestor-reveals-the-o
 Note that to run the scripts contained in this repository, you must have installed the following softwares: bwa (http://bio-bwa.sourceforge.net/bwa.shtml), samtools (http://www.htslib.org/doc/samtools.html), picardtools (https://broadinstitute.github.io/picard/), perl (https://www.perl.org/), freebayes (https://github.com/ekg/freebayes), vcflib (https://github.com/vcflib/vcflib), vt (https://github.com/atks/vt), vcftools (http://vcftools.sourceforge.net/). 
 
 
-Please report any issues or questions to melania.dangiolo(at)unice.fr
+
 
 
 ## Sequence data
